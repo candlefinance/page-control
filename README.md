@@ -1,5 +1,5 @@
 
-[![npm version](https://badge.fury.io/js/%40candlefinance%2Fpage-control.svg)](https://badge.fury.io/js/%40candlefinance%2Fpage-control)
+[![npm version](https://badge.fury.io/js/@candlefinance%2Fpage-control.svg)](https://badge.fury.io/js/@candlefinance%2Fpage-control)
 
 # Page Control
 
