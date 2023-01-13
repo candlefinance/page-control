@@ -1,8 +1,13 @@
-[![Watch the video](https://user-images.githubusercontent.com/12258850/212359063-127f7909-2a15-49ba-a153-e77f4fe11842.png)](https://user-images.githubusercontent.com/12258850/212358595-85b8ec16-749d-4ac4-9b2b-bdd53ad23fed.mp4)
 
-# @candlefinance/page-control
+# Page Control
+
+[![npm version](https://badge.fury.io/js/%40candlefinance%2Fpage-control.svg)](https://badge.fury.io/js/%40candlefinance%2Fpage-control)
 
 [UIPageControl](https://developer.apple.com/documentation/uikit/uipagecontrol) wrapper for react native.
+
+# Demo
+
+[![Watch the video](https://user-images.githubusercontent.com/12258850/212359063-127f7909-2a15-49ba-a153-e77f4fe11842.png)](https://user-images.githubusercontent.com/12258850/212358595-85b8ec16-749d-4ac4-9b2b-bdd53ad23fed.mp4)
 
 ## Installation
 
