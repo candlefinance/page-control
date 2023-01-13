@@ -1,11 +1,15 @@
+[![Watch the video](https://user-images.githubusercontent.com/12258850/212359063-127f7909-2a15-49ba-a153-e77f4fe11842.png)](https://user-images.githubusercontent.com/12258850/212358595-85b8ec16-749d-4ac4-9b2b-bdd53ad23fed.mp4)
+
 # @candlefinance/page-control
 
-UIPageControl wrapper for react native
+[UIPageControl](https://developer.apple.com/documentation/uikit/uipagecontrol) wrapper for react native.
 
 ## Installation
 
 ```sh
 npm install @candlefinance/page-control
+
+yarn install @candlefinance/page-control
 ```
 
 ## Usage
@@ -13,9 +17,19 @@ npm install @candlefinance/page-control
 ```js
 import { PageControlView } from "@candlefinance/page-control";
 
-// ...
+const [currentPage, setCurrentPage] = React.useState(0);
 
-<PageControlView color="tomato" />
+// ...
+<PageControlView
+  currentPage={currentPage}
+  hidesForSinglePage
+  numberOfPages={8}
+  onPageChange={(event) => setCurrentPage(event.nativeEvent.currentPage)}
+  currentPageIndicatorTintColor="#ff0067"
+  pageIndicatorTintColor="#D3D3D3"
+  style={styles.box}
+/>
+
 ```
 
 ## Contributing
@@ -25,7 +39,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 ## License
 
 MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)

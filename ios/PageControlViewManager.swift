@@ -23,6 +23,7 @@ class PageControlView : UIView {
     pageControl.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
 
     pageControl.addTarget(self, action: #selector(pageControlHandle), for: .valueChanged)
+    pageControl.addTarget(self, action: #selector(pageControlHandle), for: .touchUpInside)
   }
 
   required init?(coder aDecoder: NSCoder) {
