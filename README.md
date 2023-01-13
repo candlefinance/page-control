@@ -14,7 +14,7 @@
 ```sh
 npm install @candlefinance/page-control
 
-yarn install @candlefinance/page-control
+yarn add @candlefinance/page-control
 ```
 
 ## Usage
