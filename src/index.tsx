@@ -12,7 +12,12 @@ const LINKING_ERROR =
   '- You are not using Expo Go\n';
 
 type PageControlProps = {
-  color: string;
+  currentPage: number;
+  numberOfPages: number;
+  hidesForSinglePage?: boolean;
+  pageIndicatorTintColor?: string;
+  currentPageIndicatorTintColor?: string;
+  onPageChange: (event: { nativeEvent: { currentPage: number } }) => void;
   style: ViewStyle;
 };
 
