@@ -1,7 +1,7 @@
 
-# Page Control
-
 [![npm version](https://badge.fury.io/js/%40candlefinance%2Fpage-control.svg)](https://badge.fury.io/js/%40candlefinance%2Fpage-control)
+
+# Page Control
 
 [UIPageControl](https://developer.apple.com/documentation/uikit/uipagecontrol) wrapper for react native.
 
